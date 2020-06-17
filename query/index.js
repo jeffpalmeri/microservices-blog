@@ -58,5 +58,5 @@ app.listen(4002, async () => {
     console.log('Processing event', event.type);
 
     handleEvent(event.type, event.data);
-  }
+  } 
 });
